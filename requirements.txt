@@ -1,1 +1,19 @@
- 
+# Core GUI Framework
+PyQt6>=6.6.1
+PyQt6-Qt6>=6.6.1
+PyQt6-sip>=13.6.0
+
+# Database
+SQLAlchemy>=2.0.25
+alembic>=1.13.1    # For database migrations
+
+# Development & Testing
+pytest>=7.4.4
+black>=23.12.1
+pylint>=3.0.3
+pytest-qt>=4.3.1   # For testing PyQt applications
+pytest-cov>=4.1.0  # For test coverage reports
+
+# Utility Packages
+python-dotenv>=1.0.0  # For environment variables
+pathlib>=1.0.1       # For cross-platform file path handling
